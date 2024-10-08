@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Двоколонковий макет</title>
+</head>
+<body>
+    <table width="100%" border="1">
+        <tr>
+            <td colspan="2">
+                <h1>Вітаємо на нашому сайті!</h1>
+            </td>
+        </tr>
+        <tr>
+            <td width="70%" valign="top">
+                <h2>Основний контент</h2>
+                <p>Основна тригонометрична тотожність: cos<sub>a</sub> + sin<sup>2</sup>a = 1</p>
+                <p>Приклад суворої нерівності: а &lt; В. Нестрога нерівність &le; B означає, що або а &lt; В, або а = В.</p>
+
+                <h3>Список запитань</h3>
+                <ul>
+                    <li>Яка столиця України?
+                        <ul>
+                            <li>Київ</li>
+                            <li>Львів</li>
+                            <li>Одеса</li>
+                        </ul>
+                    </li>
+                    <li>Який рік заснування НТУ «ХПІ»?
+                        <ul>
+                            <li>1885</li>
+                            <li>1890</li>
+                            <li>1875</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <h3>Таблиця успішності студентів</h3>
+                <table border="1" width="100%">
+                    <tr>
+                        <th>Студент</th>
+                        <th>Математика</th>
+                        <th>Фізика</th>
+                        <th>Програмування</th>
+                    </tr>
+                    <tr>
+                        <td>Іваненко Іван</td>
+                        <td>95</td>
+                        <td>88</td>
+                        <td>90</td>
+                    </tr>
+                    <tr>
+                        <td>Петренко Олена</td>
+                        <td>87</td>
+                        <td>92</td>
+                        <td>85</td>
+                    </tr>
+                    <tr>
+                        <td>Сидоренко Олександр</td>
+                        <td>76</td>
+                        <td>85</td>
+                        <td>80</td>
+                    </tr>
+                </table>
+            </td>
+
+            <td width="30%" valign="top">
+                <h2>Реєстрація</h2>
+                <form action="#" method="post">
+                    <label for="name">Ім'я:</label><br>
+                    <input type="text" id="name" name="name"><br><br>
+
+                    <label for="email">Електронна пошта:</label><br>
+                    <input type="email" id="email" name="email"><br><br>
+
+                    <label for="gender">Стать:</label><br>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Чоловіча</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Жіноча</label><br><br>
+
+                    <label for="course">Оберіть курс:</label><br>
+                    <select id="course" name="course">
+                        <option value="mathematics">Математика</option>
+                        <option value="physics">Фізика</option>
+                        <option value="programming">Програмування</option>
+                    </select><br><br>
+
+                    <input type="submit" value="Зареєструватися">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <h2>Посилання на сайт університету</h2>
+                <a href="https://nure.ua">
+                    <img src="https://nure.ua/wp-content/uploads/2020/10/NURE-logo-UKR-2020.png" alt="Університет НУ ХПІ" width="200">
+                </a>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
